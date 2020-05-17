@@ -29,6 +29,10 @@
  *                                                    //  Ask her again.';
  */
 function willYouMarryMe(/* isPositiveAnswer */) {
+  // return new Promise((resolve, reject) => {
+  //   if (isPositiveAnswer) resolve('Hooray!!! She said "Yes"!');
+  //   if (!isPositiveAnswer) reject(new Error('Oh no, she said "No".'));
+  // }).catch((error) => error);
   throw new Error('Not implemented');
 }
 
